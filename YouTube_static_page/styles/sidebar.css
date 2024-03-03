@@ -1,0 +1,38 @@
+.side-bar
+{
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  z-index: 200;
+}
+
+.side-bar-link
+{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;  /*vertical centering */
+  flex-direction: column;
+  height: 100px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.side-bar-link:hover
+{
+  background-color: rgb(244, 244, 244);
+}
+
+.side-bar-link img
+{
+  height: 30px;
+}
+
+.side-bar-link div
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
